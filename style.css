@@ -1,0 +1,134 @@
+@media only screen and (max-width: 576px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Font size adjustments for devices with a screen width between 577px and 768px */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Font size adjustments for devices with a screen width between 769px and 992px */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Additional font size adjustments for devices with screen width 993px or more */
+@media only screen and (min-width: 993px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.928);
+  font-size: 16px;
+}
+
+header {
+  background: url("back.jpg") no-repeat center center/cover;
+
+  color: rgb(255, 255, 255);
+  text-align: Center;
+  padding: 20px;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+footer {
+  background: url("back.jpg") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.photos {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+  border: #fff;
+}
+.logo {
+  max-width: 150px;
+}
+p {
+  font-family: "Arial", sans-serif; /* Use a clean sans-serif font */
+  color: #52b27d; /* Dark grey for good readability */
+  font-size: 16px; /* Comfortable size for reading */
+  line-height: 1.5; /* Spacing for better readability */
+  margin: 15px 0; /* Add some spacing around paragraphs */
+}
+h2 {
+  color: #fff;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgb(79, 251, 231);
+}
+.C2 {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.C3 {
+  background-color: #fff;
+  padding: 10px;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.C4 {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+Strong {
+  color: #2a5f49;
+  text-shadow: 2px 2px 5px rgba(255, 113, 194, 0.568);
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px; /* Adjust the height as needed */
+  background-color: #ffffff; /* Background color of the section */
+}
+.icon {
+  width: 30px; /* Icon size */
+  height: 30px; /* Icon size */
+  margin: 0 10px; /* Space between icons */
+  transition: transform 0.3s; /* Animation effect */
+}
+.icon:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+  color: #2a5f49;
+  text-shadow: 2px 2px 5px rgba(255, 113, 194, 0.568);
+}
+#table {
+  text-align: center;
+}
